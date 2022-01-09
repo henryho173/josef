@@ -1,4 +1,22 @@
 {
+  "headers": [
+    {
+      "source": "**/*",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "http://localhost:8088"
+        },
+        {
+          "key": "Access-Control-Allow-Credentials",
+          "value": "true"
+        }
+      ]
+    }
+  ]
+}
+
+{
    "type" : "statement",
    "message" : "Information from the third-party server.",
 }
